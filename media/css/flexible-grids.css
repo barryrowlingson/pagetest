@@ -20,7 +20,7 @@
 @import url(/pagetest/media/css/yaml/forms/gray-theme.css);
 
 @import url(/pagetest/media/css/yaml/screen/typography.css);
-@import url(/pagetest/media/css/yaml/screen/screen-FULLPAGE-layout.css});
+@import url(/pagetest/media/css/yaml/screen/screen-FULLPAGE-layout.css);
 
 /* import print layout | Druck-Layout einbinden */
 @import url(/pagetest/media/css/yaml/print/print.css);
