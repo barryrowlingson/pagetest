@@ -10,9 +10,9 @@
 	<!-- (en) Add your meta data here -->
 	<!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
 
-	<link href="/media/css/flexible-grids.css" rel="stylesheet" type="text/css"/>
+	<link href="/pagetest/media/css/flexible-grids.css" rel="stylesheet" type="text/css"/>
 	<!--[if lte IE 7]>
-	<link href="/media/css/yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
+	<link href="/pagetest/media/css/yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
 	<![endif]-->
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 <style>
@@ -33,10 +33,10 @@
     <div class="ym-wbox">
       <div class="ym-grid linearize-level-1">
 	<div class="ym-50 ym-gl">
-	  <img src="/media/images/clogo.png" />
+	  <img src="/pagetest/media/images/clogo.png" />
 	</div>
 	<div class="ym-50 ym-gr">
-	  <img src="/media/images/lulogo.png" />
+	  <img src="/pagetest/media/images/lulogo.png" />
 	</div>
       </div>
     </div>
@@ -129,7 +129,7 @@ methods perform better than existing predictive methods and help in efficient re
 	<article class="ym-g50 ym-gr">
 	  <div class="ym-gbox">
 	    <h4>And another box</h4>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. etc</p>
 	    <p><a class="ym-button ym-next" href="#">Read More</a></p>
 	  </div>
 	</article>
@@ -189,7 +189,7 @@ function createMap(){
  maxZoom: 16, minZoom: 2
  });
  sMap.addTo(map);
- $.getJSON("/media/json/map.json", function(data) {
+ $.getJSON("/pagetest/media/json/map.json", function(data) {
     var geojson = L.geoJson(data, {
       onEachFeature: function (feature, layer) {
         layer.bindPopup("<a href='"+feature.properties.link+"'>"+feature.properties.name+"</a>");
