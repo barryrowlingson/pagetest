@@ -22,6 +22,8 @@
 @import url(/pagetest/media/css/yaml/screen/typography.css);
 @import url(/pagetest/media/css/yaml/screen/screen-FULLPAGE-layout.css);
 
+@import url(/pagetest/media/css/yaml/screen/grid-fluid-12col.css); 
+
 /* import print layout | Druck-Layout einbinden */
 @import url(/pagetest/media/css/yaml/print/print.css);
 
